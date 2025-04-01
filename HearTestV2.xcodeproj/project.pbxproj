@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		4E092DDB2D9C40C9000C046D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E300D3C2D97DEF600891EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E300D432D97DEF600891EAB;
+			remoteInfo = HearTestV2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4E092DD72D9C40C9000C046D /* HearTestV2TUnitTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearTestV2TUnitTesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E300D442D97DEF600891EAB /* HearTestV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearTestV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4E092DD82D9C40C9000C046D /* HearTestV2TUnitTesting */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HearTestV2TUnitTesting;
+			sourceTree = "<group>";
+		};
 		4E300D8B2D97EAB900891EAB /* HearTestV2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HearTestV2;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E092DD42D9C40C9000C046D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E300D412D97DEF600891EAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				4E300D8B2D97EAB900891EAB /* HearTestV2 */,
+				4E092DD82D9C40C9000C046D /* HearTestV2TUnitTesting */,
 				4E300D452D97DEF600891EAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				4E300D442D97DEF600891EAB /* HearTestV2.app */,
+				4E092DD72D9C40C9000C046D /* HearTestV2TUnitTesting.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E092DD62D9C40C9000C046D /* HearTestV2TUnitTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E092DDF2D9C40C9000C046D /* Build configuration list for PBXNativeTarget "HearTestV2TUnitTesting" */;
+			buildPhases = (
+				4E092DD32D9C40C9000C046D /* Sources */,
+				4E092DD42D9C40C9000C046D /* Frameworks */,
+				4E092DD52D9C40C9000C046D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E092DDC2D9C40C9000C046D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4E092DD82D9C40C9000C046D /* HearTestV2TUnitTesting */,
+			);
+			name = HearTestV2TUnitTesting;
+			packageProductDependencies = (
+			);
+			productName = HearTestV2TUnitTesting;
+			productReference = 4E092DD72D9C40C9000C046D /* HearTestV2TUnitTesting.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4E300D432D97DEF600891EAB /* HearTestV2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E300D522D97DEF800891EAB /* Build configuration list for PBXNativeTarget "HearTestV2" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					4E092DD62D9C40C9000C046D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 4E300D432D97DEF600891EAB;
+					};
 					4E300D432D97DEF600891EAB = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				4E300D432D97DEF600891EAB /* HearTestV2 */,
+				4E092DD62D9C40C9000C046D /* HearTestV2TUnitTesting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4E092DD52D9C40C9000C046D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E300D422D97DEF600891EAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E092DD32D9C40C9000C046D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E300D402D97DEF600891EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4E092DDC2D9C40C9000C046D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E300D432D97DEF600891EAB /* HearTestV2 */;
+			targetProxy = 4E092DDB2D9C40C9000C046D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4E092DDD2D9C40C9000C046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2KJQG8Y78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HearXTestV2.com.HearTestV2TUnitTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearTestV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HearTestV2";
+			};
+			name = Debug;
+		};
+		4E092DDE2D9C40C9000C046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2KJQG8Y78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HearXTestV2.com.HearTestV2TUnitTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearTestV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HearTestV2";
+			};
+			name = Release;
+		};
 		4E300D502D97DEF800891EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -305,6 +416,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E092DDF2D9C40C9000C046D /* Build configuration list for PBXNativeTarget "HearTestV2TUnitTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E092DDD2D9C40C9000C046D /* Debug */,
+				4E092DDE2D9C40C9000C046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4E300D3F2D97DEF600891EAB /* Build configuration list for PBXProject "HearTestV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
