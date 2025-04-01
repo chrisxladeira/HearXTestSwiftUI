@@ -2,7 +2,7 @@
 //  HearTestV2App.swift
 //  HearTestV2
 //
-//  Created by Christopher  Ladeira  on 2025/03/29.
+//  Created by Christopher  Ladeira  on 2025/03/30.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct HearTestV2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

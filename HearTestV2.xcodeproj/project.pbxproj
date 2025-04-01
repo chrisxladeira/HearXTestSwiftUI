@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4E300D462D97DEF600891EAB /* HearTestV2 */ = {
+		4E300D8B2D97EAB900891EAB /* HearTestV2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HearTestV2;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		4E300D3B2D97DEF600891EAB = {
 			isa = PBXGroup;
 			children = (
-				4E300D462D97DEF600891EAB /* HearTestV2 */,
+				4E300D8B2D97EAB900891EAB /* HearTestV2 */,
 				4E300D452D97DEF600891EAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4E300D462D97DEF600891EAB /* HearTestV2 */,
+				4E300D8B2D97EAB900891EAB /* HearTestV2 */,
 			);
 			name = HearTestV2;
 			packageProductDependencies = (
